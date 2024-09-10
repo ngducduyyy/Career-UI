@@ -1,0 +1,12 @@
+*{
+    background-color: #f4f5f5;
+}
+#button-signlog {
+    text-align: center;
+}
+.forgot-update {
+    text-align: center;
+}
+.navbar-collapse {
+    justify-content: flex-end
+}

@@ -1,0 +1,17 @@
+.all img {
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+}
+.all{
+    text-align: center;
+}
+.img-container{
+    margin: 10px;
+}
+.img-container img{
+    margin: 10px;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
