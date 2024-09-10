@@ -11,7 +11,7 @@ const JobDetail = () => {
 
   useEffect(() => {
     const fetchdata = async () => {
-      const response = await axios.get(`http://localhost:8080/jobdetails/${id}`)
+      const response = await axios.get(`https://career-be.cd95dznd.xyz/jobdetails/${id}`)
       setData(response.data)
       console.log(response);
 

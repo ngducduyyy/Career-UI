@@ -26,7 +26,7 @@ const Signin = () => {
             email,
             fullName
         }
-        axios.post("http://localhost:8080/register", data)
+        axios.post("https://career-be.cd95dznd.xyz/register", data)
         alert("Success")
 
     }

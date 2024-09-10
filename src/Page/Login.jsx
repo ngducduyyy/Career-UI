@@ -19,7 +19,7 @@ const Login = () => {
             username,
             password
         }
-        axios.post("http://localhost:8080/login", data)
+        axios.post("https://career-be.cd95dznd.xyz/login", data)
     }
     return (
        <div className="all-container">

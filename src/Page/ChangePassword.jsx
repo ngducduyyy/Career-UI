@@ -40,7 +40,7 @@ const ChangePassword = () => {
           username,
           newPassword
       }
-      axios.post("http://localhost:8080/changepassword", data)
+      axios.post("https://career-be.cd95dznd.xyz/changepassword", data)
       alert("Change password success")
     }
   

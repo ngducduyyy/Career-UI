@@ -57,7 +57,7 @@ const PostJob = () => {
       date,
       companyImg
     }
-    axios.post("http://localhost:8080/registerjob", data)
+    axios.post("https://career-be.cd95dznd.xyz/registerjob", data)
     alert("Success")
   };
 

@@ -13,9 +13,9 @@ const JobList = (props) => {
         const fetchData = async () => {
             let result = null;
             if (currentPage2 != null) {
-                result = await axios.get("http://localhost:8080/joblist?currentPage=" + currentPage2);
+                result = await axios.get("https://career-be.cd95dznd.xyz/joblist?currentPage=" + currentPage2);
             } else {
-                result = await axios.get("http://localhost:8080/joblist");
+                result = await axios.get("https://career-be.cd95dznd.xyz/joblist");
             }
             setListJob(result.data.job);
         }
